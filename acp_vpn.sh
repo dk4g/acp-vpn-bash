@@ -2,8 +2,8 @@
 
 export PATH=$(brew --prefix openvpn)/sbin:$PATH
 
-PROFILES=( kube-platform acp-prod jira-confluence )
-PROFILES_LABELS=( 'Kube Platform' 'ACP Prod' 'JIRA' )
+PROFILES=( kube-platform acp-tunnel acp-prod jira-confluence )
+PROFILES_LABELS=( 'Kube Platform' 'ACP-TUNNEL' 'ACP Prod' 'JIRA' )
 PROFILE_TYPE=Default
 
 # Renders a text based list of options that can be selected by the
